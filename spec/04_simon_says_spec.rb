@@ -52,15 +52,15 @@ describe "Simon says" do
     end
   end
 
-  # describe "first_word" do
-  #   it "tells us the first word of 'Hello World' is 'Hello'" do
-  #     expect(first_word("Hello World")).to eq("Hello")
-  #   end
+  describe "first_word" do
+    it "tells us the first word of 'Hello World' is 'Hello'" do
+      expect(first_word("Hello World")).to eq("Hello")
+    end
 
-  #   it "tells us the first word of 'oh dear' is 'oh'" do
-  #     expect(first_word("oh dear")).to eq("oh")
-  #   end
-  # end
+    it "tells us the first word of 'oh dear' is 'oh'" do
+      expect(first_word("oh dear")).to eq("oh")
+    end
+  end
 
   # describe "titleize" do
   #   it "capitalizes a word" do

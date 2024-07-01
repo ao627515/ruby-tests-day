@@ -35,22 +35,22 @@ describe "Simon says" do
     end
   end
 
-  # describe "start_of_word" do
-  #   it "returns the first letter" do
-  #     expect(start_of_word("hello", 1)).to eq("h")
-  #   end
+  describe "start_of_word" do
+    it "returns the first letter" do
+      expect(start_of_word("hello", 1)).to eq("h")
+    end
 
-  #   it "returns the first two letters" do
-  #     expect(start_of_word("Bob", 2)).to eq("Bo")
-  #   end
+    it "returns the first two letters" do
+      expect(start_of_word("Bob", 2)).to eq("Bo")
+    end
 
-  #   it "returns the first several letters" do
-  #     s = "abcdefg"
-  #     expect(start_of_word(s, 1)).to eq("a")
-  #     expect(start_of_word(s, 2)).to eq("ab")
-  #     expect(start_of_word(s, 3)).to eq("abc")
-  #   end
-  # end
+    it "returns the first several letters" do
+      s = "abcdefg"
+      expect(start_of_word(s, 1)).to eq("a")
+      expect(start_of_word(s, 2)).to eq("ab")
+      expect(start_of_word(s, 3)).to eq("abc")
+    end
+  end
 
   # describe "first_word" do
   #   it "tells us the first word of 'Hello World' is 'Hello'" do

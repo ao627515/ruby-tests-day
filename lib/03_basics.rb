@@ -4,19 +4,18 @@ def who_is_bigger(a, b, c)
     end
 
     max = ""
-    if a > b
-        if a > c 
-            max = "a is bigger"
-        else
-            max = "c is bigger"
-        end
+
+    if  a > b && a > c 
+        max = "a is bigger"
+    elsif a < b && b > c
+         max = "b is bigger"
     else
-        if b > c 
-            max = "b is bigger"
-        else
-            max = "c is bigger"
-        end
+        max = "c is bigger"
     end
 
     return max
+end
+
+def reverse_upcase_noLTA(str)
+    str.reverse.upcase.tr('LTA', '')
 end
